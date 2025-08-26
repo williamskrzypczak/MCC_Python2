@@ -1,0 +1,91 @@
+DOG CLASS DIAGRAM
+================
+
++-------------------+
+|       Dog         |
++-------------------+
+| Attributes:       |
+| - average_weight  |
+| - height_range    |
+| - life_span       |
+| - color           |
++-------------------+
+| Methods:          |
+| + __init__()      |
+| + bark()          |
+| + eat()           |
+| + sleep()         |
+| + get_info()      |
++-------------------+
+           ▲
+           |
+           | (inherits)
+           |
++-------------------+     +-------------------+
+|   SportingDog     |     |   WorkingDog      |
++-------------------+     +-------------------+
+| Attributes:       |     | Attributes:       |
+| - average_weight  |     | - average_weight  |
+| - height_range    |     | - height_range    |
+| - life_span       |     | - life_span       |
+| - color           |     | - color           |
+| - hunting_ability |     | - work_type       |
+| - water_resistance|     | - strength_level  |
++-------------------+     +-------------------+
+| Methods:          |     | Methods:          |
+| + __init__()      |     | + __init__()      |
+| + bark()          |     | + bark()          |
+| + eat()           |     | + eat()           |
+| + sleep()         |     | + sleep()         |
+| + get_info()      |     | + get_info()      |
+| + hunt()          |     | + guard()         |
+| + retrieve()      |     | + pull_sled()     |
+| + swim()          |     | + search_rescue() |
++-------------------+     +-------------------+
+
+INHERITANCE RELATIONSHIPS:
+- SportingDog inherits from Dog
+- WorkingDog inherits from Dog
+
+POLYMORPHISM DEMONSTRATED:
+- Both SportingDog and WorkingDog override get_info() method
+- All classes can use the same interface (bark(), eat(), sleep())
+- isinstance() checks show inheritance relationships
+
+ATTRIBUTE DETAILS:
+Dog Base Class:
+  - average_weight (int): Weight in pounds
+  - height_range (str): Height range description
+  - life_span (str): Life expectancy
+  - color (str): Coat color
+
+SportingDog Additional Attributes:
+  - hunting_ability (str): Level of hunting skill
+  - water_resistance (bool): Can swim/water-resistant
+
+WorkingDog Additional Attributes:
+  - work_type (str): Type of work performed
+  - strength_level (str): Physical strength rating
+
+METHOD DETAILS:
+Base Dog Methods (inherited by all):
+  - bark(): Returns "Woof! Woof!"
+  - eat(): Returns eating message
+  - sleep(): Returns sleeping message
+  - get_info(): Returns formatted dog information
+
+SportingDog Specialized Methods:
+  - hunt(): Returns hunting behavior message
+  - retrieve(): Returns retrieving behavior message
+  - swim(): Returns swimming behavior message
+
+WorkingDog Specialized Methods:
+  - guard(): Returns guarding behavior message
+  - pull_sled(): Returns sled pulling message
+  - search_rescue(): Returns search and rescue message
+
+NOTES:
+- All classes use proper inheritance with super().__init__()
+- Polymorphism is demonstrated through method overriding
+- Each class has unique attributes and behaviors
+- The design follows object-oriented principles
