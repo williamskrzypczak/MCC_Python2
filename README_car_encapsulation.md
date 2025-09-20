@@ -10,13 +10,13 @@ This assignment demonstrates how to test and verify that encapsulation is proper
 
 ## Assignment Requirements Met
 
-### ✅ **Core Requirements:**
-1. **Environment Setup** ✓ - Created `test_car_encapsulation.py` file
-2. **Car Class Import** ✓ - Imported Car class from separate `car.py` file
-3. **Direct Access Test** ✓ - Tests attempt to access private attributes directly
-4. **Getter/Setter Test** ✓ - Tests getter and setter methods functionality
-5. **Method Functionality Test** ✓ - Tests car methods like adding gas and printing info
-6. **Test Execution** ✓ - All tests run successfully with comprehensive output
+### **Core Requirements:**
+1. **Environment Setup** - Created `test_car_encapsulation.py` file
+2. **Car Class Import** - Imported Car class from separate `car.py` file
+3. **Direct Access Test** - Tests attempt to access private attributes directly
+4. **Getter/Setter Test** - Tests getter and setter methods functionality
+5. **Method Functionality Test** - Tests car methods like adding gas and printing info
+6. **Test Execution** - All tests run successfully with comprehensive output
 
 ## Car Class Features
 
@@ -108,27 +108,27 @@ Testing Direct Attribute Access...
 ----------------------------------------
 WARNING: Direct access to _make succeeded: Toyota
 This violates encapsulation principles!
-✓ Encapsulation relies on convention (underscore prefix)
+ Encapsulation relies on convention (underscore prefix)
 
-✓ Direct Attribute Access: PASSED
+ Direct Attribute Access: PASSED
 
 Testing Getters and Setters...
 ----------------------------------------
-✓ All getters work correctly
-✓ All setters work correctly with valid data
-✓ Empty make properly rejected
-✓ Invalid year properly rejected
+ All getters work correctly
+ All setters work correctly with valid data
+ Empty make properly rejected
+ Invalid year properly rejected
 
-✓ Getters and Setters: PASSED
+ Getters and Setters: PASSED
 
 Testing Method Functionality...
 ----------------------------------------
-✓ Initial tank state is correct
-✓ Adding gas works correctly
-✓ Overfill protection works correctly
-✓ Using gas works correctly
+ Initial tank state is correct
+ Adding gas works correctly
+ Overfill protection works correctly
+ Using gas works correctly
 
-✓ Method Functionality: PASSED
+ Method Functionality: PASSED
 
 ==================================================
 TEST SUMMARY: 5/5 tests passed
@@ -175,17 +175,17 @@ Python doesn't have true private attributes like other languages (Java, C++). In
 
 ## Assignment Learning Objectives
 
-### ✅ **Encapsulation Understanding**
+### **Encapsulation Understanding**
 - Understand the purpose and benefits of encapsulation
 - Recognize proper vs improper attribute access
 - Implement controlled access through methods
 
-### ✅ **Testing Skills**
+###  **Testing Skills**
 - Write comprehensive test cases
 - Verify both positive and negative scenarios
 - Test error handling and validation
 
-### ✅ **Python Best Practices**
+###  **Python Best Practices**
 - Use naming conventions properly
 - Implement proper class design
 - Write maintainable and testable code

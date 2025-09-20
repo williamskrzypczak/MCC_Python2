@@ -5,7 +5,7 @@ This assignment demonstrates how to improve Python code by applying best practic
 
 ## Original Code Problems
 
-### ❌ **Issues in the Original Code:**
+###  **Issues in the Original Code:**
 ```python
 def fx(a, b):
   if a > 0 and b > 0:
@@ -35,7 +35,7 @@ def fx(a, b):
 
 ## Improved Code Solution
 
-### ✅ **Improvements Made:**
+###  **Improvements Made:**
 
 #### **1. Meaningful Names**
 - **Function**: `fx` → `compare_and_print_numbers`
@@ -151,17 +151,17 @@ The improved code includes comprehensive testing for:
 
 ## Learning Objectives Met
 
-### ✅ **Code Quality**
+###  **Code Quality**
 - **Readability**: Clear, descriptive names and structure
 - **Maintainability**: Modular design with helper functions
 - **Robustness**: Proper error handling and validation
 
-### ✅ **Python Best Practices**
+###  **Python Best Practices**
 - **PEP 8 Compliance**: Proper formatting and style
 - **Documentation**: Comprehensive docstrings and comments
 - **Error Handling**: Graceful handling of edge cases
 
-### ✅ **Software Engineering Principles**
+###  **Software Engineering Principles**
 - **Single Responsibility**: Each function has one clear purpose
 - **DRY (Don't Repeat Yourself)**: Eliminated code duplication
 - **Separation of Concerns**: Logical organization of functionality

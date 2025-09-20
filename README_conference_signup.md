@@ -5,7 +5,7 @@ This assignment demonstrates the use of Python's `*args` and `**kwargs` syntax t
 
 ## Assignment Requirements
 
-### ✅ **Core Requirements Met:**
+###  **Core Requirements Met:**
 1. **Function Name**: `conference_signup` ✓
 2. ***args Usage**: Accepts any number of participant names ✓
 3. ****kwargs Usage**: Accepts contact details (email, phone) ✓
@@ -161,22 +161,22 @@ The implementation includes 7 comprehensive test cases:
 
 ## Code Quality Features
 
-### ✅ **Documentation**
+###  **Documentation**
 - Comprehensive docstrings
 - Clear comments explaining logic
 - Example usage in docstrings
 
-### ✅ **Error Handling**
+###  **Error Handling**
 - Graceful handling of edge cases
 - Meaningful error messages
 - Robust input validation
 
-### ✅ **Code Organization**
+###  **Code Organization**
 - Logical function structure
 - Clear separation of concerns
 - Readable and maintainable code
 
-### ✅ **Testing**
+###  **Testing**
 - Comprehensive test suite
 - Edge case coverage
 - Multiple usage scenarios

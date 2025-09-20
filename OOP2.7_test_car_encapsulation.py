@@ -10,7 +10,7 @@ Date: 2024
 """
 
 import sys
-from OOP2_4_car_key import Car
+from car import Car
 
 
 def test_direct_attribute_access():
@@ -344,10 +344,10 @@ def run_all_tests():
     print(f"TEST SUMMARY: {passed_tests}/{total_tests} tests passed")
     
     if passed_tests == total_tests:
-        print("All tests passed! Encapsulation is properly implemented.")
+        print("🎉 All tests passed! Encapsulation is properly implemented.")
         return True
     else:
-        print("Some tests failed. Please review the encapsulation implementation.")
+        print("❌ Some tests failed. Please review the encapsulation implementation.")
         return False
 
 

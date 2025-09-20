@@ -97,11 +97,11 @@ The `dog_class_diagram.txt` file contains a text-based representation of the cla
 - Any UML diagramming software
 
 ## Learning Objectives Met
-✅ **Inheritance**: Proper class hierarchy with base and derived classes  
-✅ **Polymorphism**: Method overriding and interface consistency  
-✅ **Encapsulation**: Proper attribute and method organization  
-✅ **Documentation**: Comprehensive docstrings and comments  
-✅ **Practical Application**: Real-world dog breed examples  
+ **Inheritance**: Proper class hierarchy with base and derived classes  
+ **Polymorphism**: Method overriding and interface consistency  
+ **Encapsulation**: Proper attribute and method organization  
+ **Documentation**: Comprehensive docstrings and comments  
+ **Practical Application**: Real-world dog breed examples  
 
 ## Extending the Code
 You can easily extend this implementation by:
